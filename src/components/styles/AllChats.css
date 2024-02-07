@@ -1,0 +1,51 @@
+.allChats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.chatHeader, .sendMessageContainer{
+   background-color: rgba(0, 31, 139, 1); 
+}
+
+.chatHeader{
+    display: flex;
+    align-items: center;
+    padding-left: 0.8rem;
+}
+
+.chatAll-container{
+    height: 100%;
+    overflow-y: auto;
+    padding-inline: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.chatAll{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.sendMessageContainer{
+    display: flex;
+    padding: 2% 3%;
+    position: relative;
+}
+
+.sendMessageContainer img{
+    position: absolute;
+    right: 5%;
+    bottom: 18%;
+}
+
+.sendMessageContainer textarea{
+    width: 100%;
+    min-height: 120px;
+    border-radius: 9px;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-family: Roboto;
+    color: rgba(154, 154, 154, 1);
+}

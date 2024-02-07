@@ -1,0 +1,41 @@
+.title_container{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    padding-inline: 8.5%;
+    padding-block: 0.8rem;
+    cursor: pointer;
+}
+
+.title_container.selected{
+    border-radius: 16px;
+    background: rgba(47, 47, 47, 0.17);
+}
+
+.title_container span {
+    width: 68px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 97.688%; 
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+}
+
+.title_container h2{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px; 
+    text-transform: capitalize;
+}
